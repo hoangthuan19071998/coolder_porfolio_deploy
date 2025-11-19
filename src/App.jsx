@@ -5,6 +5,7 @@ import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
+import Experience from './sections/Experience';
 function App() {
   return (
     <div className="font-sans text-gray-900">
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Hero />
         <Skills />
+        <Experience />
         <Projects />
         <Contact />
         <Footer />

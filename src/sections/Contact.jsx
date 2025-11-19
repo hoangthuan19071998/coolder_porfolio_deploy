@@ -24,7 +24,7 @@ const Contact = () => {
                         Whether you have a question or just want to say hi, my inbox is always open!
                     </p>
 
-                    {/* Nút gửi email chính */}
+                 
                     <a
                         href="mailto:emailcuaban@gmail.com"
                         className="inline-block px-8 py-4 bg-transparent border-2 border-blue-500 text-blue-500 font-semibold rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
@@ -33,7 +33,7 @@ const Contact = () => {
                     </a>
                 </motion.div>
 
-                {/* Thông tin liên hệ phụ (Optional) */}
+              
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                     <div className="flex flex-col items-center">
                         <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center mb-4 text-blue-500">

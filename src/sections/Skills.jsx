@@ -7,7 +7,7 @@ const Skills = () => {
         <section id="skills" className="py-20 bg-gray-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-                {/* Tiêu đề Section */}
+         
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                         Technical Skills
@@ -18,7 +18,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                {/* Grid Categories */}
+           
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {skillsData.map((category, index) => (
                         <div
@@ -33,13 +33,13 @@ const Skills = () => {
                                 {category.skills.map((skill, idx) => (
                                     <motion.div
                                         key={idx}
-                                        whileHover={{ scale: 1.1 }} // Hiệu ứng phóng to nhẹ khi di chuột
+                                        whileHover={{ scale: 1.1 }} 
                                         className="flex flex-col items-center p-3 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
                                     >
-                                        {/* Render Icon component */}
+                                       
                                         <skill.icon
                                             className="text-4xl mb-2 transition-colors"
-                                            style={{ color: skill.color }} // Dùng màu gốc của logo
+                                            style={{ color: skill.color }} 
                                         />
                                         <span className="text-sm font-medium text-gray-600">
                                             {skill.name}

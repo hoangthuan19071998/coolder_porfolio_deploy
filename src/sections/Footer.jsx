@@ -25,7 +25,7 @@ const Footer = () => {
                     >
                         <FiLinkedin size={20} />
                     </a>
-                    {/* Nếu có Twitter/X */}
+               
                     <a
                         href="https://twitter.com"
                         className="hover:text-blue-500 transition-colors"

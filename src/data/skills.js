@@ -1,6 +1,6 @@
 // src/data/skills.js
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaLanguage } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs, SiMongodb, SiTypescript, SiFigma, SiPostman, SiVuedotjs } from "react-icons/si";
+import {  SiMongodb, SiTypescript, SiFigma, SiPostman, SiVuedotjs } from "react-icons/si";
 import { IoIosPeople } from "react-icons/io"
 export const skillsData = [
     {
@@ -11,9 +11,7 @@ export const skillsData = [
             { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
             { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
             { name: "React", icon: FaReact, color: "#61DAFB" },
-            { name: "Vue", icon: SiVuedotjs, color: "#41B883" },
-            { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
-            { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+            { name: "Vue", icon: SiVuedotjs, color: "#41B883" }
         ],
     },
     {

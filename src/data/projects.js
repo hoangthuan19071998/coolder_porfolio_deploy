@@ -4,19 +4,14 @@ export const projects = [
         title: "E-Commerce Dashboard",
         description: "Hệ thống quản lý đơn hàng và tồn kho tập trung. Giúp chủ cửa hàng theo dõi doanh thu theo thời gian thực.",
         techStack: ["React", "Tailwind CSS", "Chart.js", "Firebase"],
-        // Bạn có thể thay link ảnh thật của bạn vào đây sau
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
-        githubLink: "https://github.com",
-        liveLink: "https://demo.com",
+        image: "/"
     },
     {
         id: 2,
-        title: "Task Management App",
+        title: "MicroApp - Chatbot",
         description: "Ứng dụng quản lý công việc cá nhân với tính năng Kéo & Thả (Drag & Drop) tương tự Trello.",
         techStack: ["React", "Redux Toolkit", "Node.js", "MongoDB"],
-        image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?w=800&q=80",
-        githubLink: "https://github.com",
-        liveLink: "https://demo.com",
+        image: "/images/AdaptiveCard.png"
     },
     {
         id: 3,
