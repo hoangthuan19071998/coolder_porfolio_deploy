@@ -1,0 +1,10 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* stylelint-enable at-rule-no-unknown */
+
+/* Thêm smooth scroll cho toàn trang */
+html {
+  scroll-behavior: smooth;
+}
