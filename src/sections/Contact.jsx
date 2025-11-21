@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
 import { motion } from 'framer-motion';
-
+import { myInfo } from '../data/myInfo';
 const Contact = () => {
     return (
         <section id="contact" className="py-20 bg-gray-900 text-white">
@@ -24,7 +24,7 @@ const Contact = () => {
                         Whether you have a question or just want to say hi, my inbox is always open!
                     </p>
 
-                 
+
                     <a
                         href="mailto:emailcuaban@gmail.com"
                         className="inline-block px-8 py-4 bg-transparent border-2 border-blue-500 text-blue-500 font-semibold rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
@@ -33,27 +33,27 @@ const Contact = () => {
                     </a>
                 </motion.div>
 
-              
+
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                     <div className="flex flex-col items-center">
                         <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center mb-4 text-blue-500">
                             <FiMail size={24} />
                         </div>
-                        <p className="text-gray-400">emailcuaban@gmail.com</p>
+                        <p className="text-gray-400">{myInfo.email}</p>
                     </div>
 
                     <div className="flex flex-col items-center">
                         <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center mb-4 text-blue-500">
                             <FiPhone size={24} />
                         </div>
-                        <p className="text-gray-400">+84 987 654 321</p>
+                        <p className="text-gray-400">{myInfo.phoneNumber}</p>
                     </div>
 
                     <div className="flex flex-col items-center">
                         <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center mb-4 text-blue-500">
                             <FiMapPin size={24} />
                         </div>
-                        <p className="text-gray-400">Hanoi, Vietnam</p>
+                        <p className="text-gray-400">{myInfo.address}</p>
                     </div>
                 </div>
 
