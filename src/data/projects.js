@@ -21,6 +21,7 @@ export const projects = [
         description: "Todo app with Vue Router, Pinia (persisted state), reusable composables, a custom directive, dark/light theme and unit tests with Vitest.",
         techStack: ["Vue 3", "TypeScript", "Pinia", "Vitest"],
         githubLink: "https://github.com/hoangthuan19071998/vue3-typescript",
+        liveLink: "https://vue3-typescript-delta.vercel.app",
     },
     {
         id: 4,

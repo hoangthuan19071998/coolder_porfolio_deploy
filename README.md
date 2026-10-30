@@ -1,5 +1,7 @@
 # Portfolio — Hoàng Thuận
 
+[![CI](https://github.com/hoangthuan19071998/coolder_porfolio_deploy/actions/workflows/ci.yml/badge.svg)](https://github.com/hoangthuan19071998/coolder_porfolio_deploy/actions/workflows/ci.yml)
+
 My personal portfolio website.
 
 **Live:** https://coolderporfoliodeploy.vercel.app
