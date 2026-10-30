@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FiMenu, FiX } from 'react-icons/fi'; 
+import { FiMenu, FiX } from 'react-icons/fi';
+import { myInfo } from '../data/myInfo';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -7,6 +8,7 @@ const Header = () => {
     const navLinks = [
         { name: 'About', href: '#about' },
         { name: 'Skills', href: '#skills' },
+        { name: 'Experience', href: '#experience' },
         { name: 'Projects', href: '#projects' },
         { name: 'Contact', href: '#contact' },
     ];
@@ -17,7 +19,7 @@ const Header = () => {
                 <div className="flex items-center justify-between h-16">
                 
                     <div className="flex-shrink-0 font-bold text-2xl text-blue-600 cursor-pointer">
-                        <a href="#">DevPortfolio.</a>
+                        <a href="#">{myInfo.name}.</a>
                     </div>
 
                     
@@ -33,7 +35,9 @@ const Header = () => {
                                 </a>
                             ))}
                             <a
-                                href="/file/cv.pdf"
+                                href={myInfo.cvUrl}
+                                target="_blank"
+                                rel="noreferrer"
                                 className="bg-blue-600 text-white px-4 py-2 rounded-md font-medium hover:bg-blue-700 transition"
                             >
                                 Download Resume
@@ -66,6 +70,14 @@ const Header = () => {
                                 {link.name}
                             </a>
                         ))}
+                        <a
+                            href={myInfo.cvUrl}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="block px-3 py-2 text-base font-medium text-blue-600 hover:bg-gray-50 rounded-md"
+                        >
+                            Download Resume
+                        </a>
                     </div>
                 </div>
             )}

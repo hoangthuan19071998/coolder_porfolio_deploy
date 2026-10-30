@@ -8,7 +8,7 @@ export const experienceData = [
   {
     id: 2,
     role: "Web Developer",
-    company: " XTECH SMART CONNECTIVITY TECHNOLOGY SOLUTIONS COMPANY LIMITED",
+    company: "XTECH Smart Connectivity Technology Solutions Co., Ltd",
     period: "Jun 2020 - Jul 2021"
   },
   {

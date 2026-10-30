@@ -20,13 +20,13 @@ const Contact = () => {
                         Get In Touch
                     </h1>
                     <p className="text-gray-400 text-lg max-w-2xl mx-auto mb-12">
-                        I am currently looking for new opportunities as a Web Developer.
+                        I am currently open to new opportunities as a Frontend Developer.
                         Whether you have a question or just want to say hi, my inbox is always open!
                     </p>
 
 
                     <a
-                        href="mailto:emailcuaban@gmail.com"
+                        href={`mailto:${myInfo.email}`}
                         className="inline-block px-8 py-4 bg-transparent border-2 border-blue-500 text-blue-500 font-semibold rounded-lg hover:bg-blue-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
                     >
                         Say Hello
@@ -39,14 +39,14 @@ const Contact = () => {
                         <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center mb-4 text-blue-500">
                             <FiMail size={24} />
                         </div>
-                        <p className="text-gray-400">{myInfo.email}</p>
+                        <a href={`mailto:${myInfo.email}`} className="text-gray-400 hover:text-white">{myInfo.email}</a>
                     </div>
 
                     <div className="flex flex-col items-center">
                         <div className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center mb-4 text-blue-500">
                             <FiPhone size={24} />
                         </div>
-                        <p className="text-gray-400">{myInfo.phoneNumber}</p>
+                        <a href={`tel:${myInfo.phoneNumber.replace(/\s/g, '')}`} className="text-gray-400 hover:text-white">{myInfo.phoneNumber}</a>
                     </div>
 
                     <div className="flex flex-col items-center">

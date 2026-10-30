@@ -4,5 +4,8 @@ export const myInfo = {
     email: 'hoangthuan19071998@gmail.com',
     phoneNumber: '+84 359943961',
     address: 'Hanoi, Vietnam',
-    name: 'Hoàng Thuận'
+    name: 'Hoàng Thuận',
+    role: 'Frontend Developer',
+    summary: 'Frontend developer with 6+ years of experience building web applications with React, Vue and TypeScript. I care about clean UI, maintainable code and shipping products that work well on every screen.',
+    cvUrl: '/file/cv.pdf'
 }
